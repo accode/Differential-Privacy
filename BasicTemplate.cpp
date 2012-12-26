@@ -17,6 +17,6 @@ using namespace std;
 typedef double db;
 typedef long long LL ;
 
-int main(){
-    return 0;
-}
+const db EPS = 1e-8;
+
+int sgn( db x) {return x < - EPS ? - 1 : x > EPS ;}
